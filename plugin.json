@@ -1,0 +1,11 @@
+{
+  "ver": 1,
+  "version": "1.0.0",
+  "name": "Smart Related Notes",
+  "icon": "ti-bulb",
+  "description": "Discover related notes based on content similarity, shared references, and tags",
+  "custom": {
+    "maxResults": 10,
+    "pollIntervalMs": 2000
+  }
+}
