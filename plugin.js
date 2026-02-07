@@ -138,8 +138,9 @@ const RELATED_NOTES_CSS = `
     color: var(--text-default);
     flex: 1;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
   }
 
   .srn-card-badge {
